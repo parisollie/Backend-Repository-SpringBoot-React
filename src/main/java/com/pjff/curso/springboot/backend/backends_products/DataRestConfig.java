@@ -10,7 +10,7 @@ import com.pjff.curso.springboot.backend.backends_products.entities.Product;
 @Configuration
 public class DataRestConfig implements RepositoryRestConfigurer {
 
-    // Vid 243
+    // V-243,paso 1.5
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
         // Para ver el id

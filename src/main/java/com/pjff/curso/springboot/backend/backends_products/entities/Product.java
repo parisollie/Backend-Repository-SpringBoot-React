@@ -6,11 +6,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-//Vid 241
+//V-241,paso 1.0
 @Entity
 @Table(name = "products")
 public class Product {
 
+    // Ponemos sus atributos y se deben de llamar igual al front end
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -18,6 +19,7 @@ public class Product {
     private String description;
     private Long price;
 
+    /*----------------------------------GETTERS AND SETTERS ------------------------ */
     public Long getId() {
         return id;
     }
