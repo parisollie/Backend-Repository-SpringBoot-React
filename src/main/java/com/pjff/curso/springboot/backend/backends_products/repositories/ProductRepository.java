@@ -6,8 +6,12 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.pjff.curso.springboot.backend.backends_products.entities.Product;
 
-//Vid 245, es importante agregar esto para que no haya un error entre el backend y front end
-//Vid 269, para angular y react
+/*
+  V-245,paso 4.4 es importante agregar esto para que no haya un error entre el backend 
+  y front end de cross origin
+
+  Vid 269, para angular y react
+*/
 @CrossOrigin(origins = { "http://localhost:5173", "http://localhost:4200" })
 // Paso 1.4
 @RepositoryRestResource(path = "products")
