@@ -12,8 +12,15 @@ This application contains the following knowledge:
   
 - Sptring data rest CRUD
 
-- SERVICES
+- Services
+
+- Repository
+
+- Mysql
 
 - The aplication look like this :
 
-<img width="865" alt="Captura de pantalla 2025-03-31 a la(s) 11 04 52 p m" src="https://github.com/user-attachments/assets/cdf68f50-67af-4b0d-bbb0-1b5011162261" />
+<img width="1078" alt="Captura de pantalla 2025-04-01 a la(s) 10 47 10 a m  1" src="https://github.com/user-attachments/assets/0a049e30-51d8-4f14-8729-c72b79114f31" />
+
+<img width="1060" alt="Captura de pantalla 2025-04-01 a la(s) 10 50 51 a m" src="https://github.com/user-attachments/assets/3b8c3b49-2e06-4b88-98ad-b4c0663b9783" />
+
